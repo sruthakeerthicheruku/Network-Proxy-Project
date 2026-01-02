@@ -14,5 +14,4 @@ This is a small network proxy I made in C++ to learn about **network programming
 
 - C++ compiler (C++11 or higher)  
 - Works on Windows or Linux  
-- Networking libraries (`<arpa/inet.h>` for Linux, standard Windows sockets on Windows)# Network-Proxy-Project-ACM
-http/https proxy with blocked hosts (windows)
+- Networking libraries (`<arpa/inet.h>` for Linux, standard Windows sockets on Windows)
