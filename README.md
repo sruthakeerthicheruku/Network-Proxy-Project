@@ -10,7 +10,7 @@ The proxy works as a middleman between a client and a server by receiving client
 - Forwards client requests to the destination server  
 - Receives responses from the server and sends them back to the client  
 - Handles multiple clients using threads  
-- Demonstrates basic client–server communication  
+- Demonstrates basic client-server communication  
 
 ---
 
@@ -65,8 +65,8 @@ g++ proxy.cpp -o proxy -pthread
 
 ## Learning Outcome
 - Learned how network proxies work
-- Gained hands-on experience with socket programming in C++
-- Understood TCP client–server communication
+- Gained experience with socket programming in C++
+- Understood TCP client server communication
 - Used multi-threading to handle multiple connections
 - Improved debugging and networking skills
 
