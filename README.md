@@ -35,9 +35,7 @@ The proxy works as a middleman between a client and a server by receiving client
 ### Step 1: Compile
 Make sure `g++` is installed.
 
-```bash
-g++ proxy.cpp -o proxy -pthread
-```
+
 ### Step 2: Compile the Code
 ```bash
 g++ proxy.cpp -o proxy -pthread
