@@ -37,6 +37,7 @@ Make sure `g++` is installed.
 
 ```bash
 g++ proxy.cpp -o proxy -pthread
+```
 ### Step 2: Compile the Code
 ```bash
 g++ proxy.cpp -o proxy -pthread
