@@ -1,14 +1,7 @@
-# Network Proxy Project
-
-This is a small network proxy I made in C++ to learn about **network programming** and **multithreading**. It forwards client requests to servers and sends back the responses.
-
-# Network Proxy Project
 
 ## About the Project
 This project is a basic network proxy implemented in C++.  
 The proxy works as a middleman between a client and a server by receiving client requests, forwarding them to the target server, and sending the server’s response back to the client.
-
-This project was done as part of a club open project submission, with the aim of understanding core networking concepts.
 
 ---
 
