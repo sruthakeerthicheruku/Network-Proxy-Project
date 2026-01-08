@@ -32,7 +32,7 @@ The proxy works as a middleman between a client and a server by receiving client
 
 ## How to Run the Project
 
-### Step 1: Compile
+### Step 1: Compiler
 Make sure `g++` is installed.
 
 
