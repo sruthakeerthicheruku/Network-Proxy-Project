@@ -111,11 +111,10 @@ void handleclient(SOCKET clientsocket)
       return;
     }
 
-    // send http 200 connection established to client
+   
     const char *msg = "HTTP/1.1 200 Connection Established\r\n\r\n";
     send(clientsocket, msg, strlen(msg), 0);
 
-    // forward bytes both ways
     SOCKET *s1 = new SOCKET[2]{clientsocket, serversocket};
     SOCKET *s2 = new SOCKET[2]{serversocket, clientsocket};
     CreateThread(nullptr, 0, forward, s1, 0, nullptr);
