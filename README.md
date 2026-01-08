@@ -63,15 +63,12 @@ proxy.exe
 ### HTTPS Requests (CONNECT)
 
 1. Client sends a CONNECT host:443 request
-
 2. Proxy checks if the host is blocked
 
 - If allowed:
 
 1. Connects to the target server
-
 2. Sends HTTP/1.1 200 Connection Established
-
 3. Starts bi directional forwarding of encrypted data using threads
 ---
 ### Blocked Hosts
