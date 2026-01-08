@@ -79,7 +79,7 @@ proxy.exe
 ### Logging
 
 The proxy logs activity directly to the console.
-
+---
 ## Learning Outcome
 - Learned how a network proxy works internally
 - Learned WinSock2 socket programming
